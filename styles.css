@@ -1,0 +1,284 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #808080;
+}
+
+header #pesquisa {
+    display: flex;
+    width: 100%;
+    margin-left: 10px;
+}
+
+header #pesquisa p {
+    width: 20%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin: 17px 10px 5px 10px;
+}
+
+header #busca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    
+}
+header #busca input{
+    height: 20px;
+    border-radius: 5px;
+}
+header #busca p,
+header #filtro p {
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    margin: 0px 10px 0 10px;
+   
+}
+main #banner{
+    display: flex; 
+}
+
+main #banner .promocao {
+    display: flex;
+    border: solid 2px #323232;
+    border-radius: 5px;
+    margin: 5px 10px 5px 10px; 
+    width: 100%;
+
+}
+main #banner .promocao p{
+    font-family: "Roboto", sans-serif;
+    color: #323232;
+    font-weight: 700;
+    font-size: 30px;
+    margin: 225px 0px 0px 0;
+}
+
+main #online{
+    display: flex; 
+    margin-left: 140px;
+
+}
+main #online .wpp{
+    display: flex;
+    border: solid 2px #323232;
+    border-radius: 5px;
+    margin: 5px 5px;
+    cursor: pointer
+
+}
+main #online .wpp img{
+    max-width: 50px;
+    height: 100%;
+}
+main #online .wpp p{
+    font-family: "Roboto", sans-serif;
+    color: #323232;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 5px 10px 0;
+}
+main #online .loja{
+    display: flex;
+    border: solid 2px #323232;
+    border-radius: 5px;
+    margin: 5px 5px;
+    cursor: pointer
+}
+main #online .loja img{
+    max-width: 50px;
+    height: 80%;
+    margin-top: 5px;
+    margin-left: 2px;
+}
+main #online .loja p{
+    font-family: "Roboto", sans-serif;
+    color: #323232;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 5px 10px 5px;
+}
+main #online .cartao{
+    display: flex;
+    border: solid 2px #323232;
+    border-radius: 5px;
+    margin: 5px 5px;
+    cursor: pointer
+}
+main #online .cartao img{
+    max-width: 60px;
+    height: 100%;
+}
+main #online .cartao p{
+    font-family: "Roboto", sans-serif;
+    color: #323232;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 5px 10px 5px;
+}
+main #online .carrinho{
+    display: flex;
+    border: solid 2px #323232;
+    border-radius: 5px;
+    margin: 5px 5px;
+    cursor: pointer
+
+}
+main #online .carrinho img{
+    max-width: 60px;
+    height: 80%;
+    margin-bottom: 1px;
+}
+main #online .carrinho p{
+    font-family: "Roboto", sans-serif;
+    color: #323232;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 16px 5px 10px 5px;
+}
+
+main #produto {
+    display: flex;
+   flex-wrap: wrap-reverse;
+   justify-content: center;
+   
+}
+
+main #produtos #titulo {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+    color: #323232;
+    font-weight: 700;
+    padding-bottom: 10px;
+    font-family: "Roboto", sans-serif;
+    
+}
+main #produtos #produto .card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    border: solid 2px #323232;
+    border-radius: 5px;
+    margin: 5px 5px;
+    min-width: 450px;
+}
+main #produtos #produto .card img{
+    max-width: 250px;
+    height: 100%;
+}
+main #produtos #produto .card .item p{
+    font-family: "Roboto", sans-serif;
+    color: #323232;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 10px 0px 10px 0;
+}
+main #produtos #produto .card .item{
+    margin: 0 5px 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+main #produtos #produto .card .valor-qtd {
+    margin: auto 10px;
+
+}
+main #produtos #produto .card .valor-qtd .valor {
+    color: #c10000;
+    font-family: "Robot", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+main #produtos #produto .card .valor-qtd .qtd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #produtos #produto .card button{
+    background-color:#047; ;
+    min-height: 40px;
+    min-width: 150px;
+    border-radius: 5px;
+    border: 0;
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #808080;
+}
+footer img{
+    width: 100px;
+}
+footer #e-mail{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+footer #cadastrar {
+border: 0;
+border-radius: 5px;
+height: 45px;
+width: 200px;
+color: #fff;
+font-size: 18px;
+font-weight: 700;
+margin: 20px 0;
+cursor: pointer;
+background: #323232;
+
+
+}
+footer #cadastrar{
+    align-items: center;
+    width: 45%;
+    height: 35px;
+    background: #323232;
+    transition: 0.3s;
+
+}
+footer #e-mail input{
+    height: 20px;
+    border-radius: 5px;
+}
+footer #e-mail #cadastrar:hover{
+    background: rgb(27, 27, 27);
+}
+footer #sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer #sociais img{
+    width: 50px;
+    margin: 5px 0px;
+    cursor: pointer;
+}
